@@ -1,10 +1,11 @@
+/*navbar design*/
 .navbar {
     background-color: rgb(195, 221, 234);
     color:black;
     height: 100px;
 }
 
-.flex {
+.containerflex {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -24,4 +25,53 @@
 
 .navbar a:hover {
     background-color: blue;
+}
+
+/*Article desgin */
+.aboutme {
+    box-sizing: content-box;
+    height: 100%;
+    width: 300px;
+    padding: 50px;
+    background-color: bisque;  
+}
+
+article div {
+    display:grid;
+    grid-row: 100px;
+}
+
+#me {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+
+/*Footer design*/
+.footer {
+    background-color: rgb(123, 166, 135);
+    color:black;
+    height: 100%;
+    
+}
+
+.footer ul {
+    display: flex;
+    height: 80px;
+}
+
+.footerflex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+}
+h3 {
+    display: table-caption;
+}
+.footer a {
+    padding: 15px;
+    margin: 5px 10px;
 }
