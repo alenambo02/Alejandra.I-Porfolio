@@ -1,4 +1,4 @@
-/*navbar design*/
+/* Added navbar design, used justify-content to create space between the header and the navagation bar*/
 .navbar {
     background-color: rgb(195, 221, 234);
     color:black;
@@ -21,85 +21,72 @@
 .navbar a {
     padding: 15px;
     margin: 5px 10px;
+    text-decoration: none;
+
 }
 
 .navbar a:hover {
     background-color: rgb(244, 237, 231);
+    box-shadow: 10px 10px;
 }
 
-/*Article desgin */
-.aboutme {
-    box-sizing: content-box;
-    height: 100%;
-    width: 320px;
-    padding: 0 50px;
-    background-color: bisque; 
-    align-items: center;
-}
-
-
-aside h2 {
-    text-align: center;
-    padding: 15px 0;
-}
-
-#me {
-    height: 275px;
-    width: 285px;
+/*Added article desgin, used border-radius to turn my squared image into a rounded one, centered text*/
+.me {
+    height: 250px;
+    width: 300px;
     border-radius: 50%;
 }
-
-/*Main design*/
-.button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 40;
-    font-size: 15px;
-    border: solid 3px;
-    background-color:cornflowerblue;
-    padding: 20px;
-    text-decoration: none;
-    float: left;
+h2 {
+    text-align: center;
+    padding: 10px;
 }
 
-main {
-    display: block;
-    block-size: auto;
-    background-color: darkcyan;
+/* Added main design, created buttons that will deploy user to my projects*/
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    font:bolder;
+    border: 3px solid black;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    overflow: visible;
+    background-color: bisque;
 }
 
 .pics {
-   height: 250px;
-   width: 550px;
-   object-fit: cover;
-   align-items: stretch;
+    height: 170px;
+    width: 800px;
 }
 
+#focuspic {
+    height: 400px;
+    width: 800px;
+}
+/*Used to give my content a grid display and display contents with a sidebar and projects adjecent to it*/
 .content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
 }
 
-.box1 {
-    width: 700px;
-    height:300px;
-    border: 5px solid grey;
-    margin: 0;
+.aside {
+    padding: 50px;
+    background-color:rgb(250, 220, 183);
+ 
 }
-.box2 {
-    width: 700px;
-    height:300px;
-    border: 5px solid grey;
-    margin: 0;
-}
-.box3 {
-    width: 700px;
-    height:300px;
-    border: 5px solid grey;
-    margin: 0;
+
+.work {
+    background-color:cadetblue;
+    margin-left: 45px;
+    padding-bottom: 15px;
 }
 
 
-/*Footer design*/
+/*Added footer design, used flex tools to display contents in a row*/
 .footer {
     background-color: rgb(123, 166, 135);
     color:black;
@@ -121,15 +108,31 @@ main {
     margin: 5px 10px;
 }
 
-h3:hover {
-    align-items: center;
-    box-shadow: inset 200px 0 0 0 yellowgreen;
-    transition: color .3s ease-in-out,
-    box-shadow .3s ease-in-out;
-}
-
 footer h3 {
     text-align: center;
     padding-top: 30px;
-
 }
+/*added media screen for responsive design*/
+
+@media screen and (min-width:992px) {
+    body {
+        width:100%;
+    }
+
+    body {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(252, 231, 252);
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    body:last-child {
+        flex: grow 1;
+    }
+}
+
