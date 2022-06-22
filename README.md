@@ -1,7 +1,7 @@
 # Alejandra.I-Porfolio
 
 ## Description 
-/*what, why, how*/
+
 Hello! 
 Welcome to a profolio I have created, displaying some of the projects I have done.
 I have created this profolio to showcase some of the work I have done throughout my bootcamp course. This profolio itself displays my abilities and comfort with HTML and CSS. 
@@ -10,7 +10,7 @@ Navigation: I have included a navigation bar that will help navigate you through
 About Me: In the about me section, you can read about myself and my current bootcamp journey.
 I have included three of the projects I have created or worked on with another peer in the class. You can find his GitHub down below for further reference. Each project has a button that will depoly the project I am referencing. 
 Finally, I have included a footer that will provide you with my contact information if you wish to contact me for questions, thoughts, or tips.
-/*include challenges and goals*/
+
 Challenges: Media queries, I tried to research them, watch videos but I still seem to be missing something. 
 
 Future goals: My future goals with this project is tackle media queries within my profolio. I also plan to utilize this profolio as a starting point to my creativity behind my profolio. I hope within time you can see my development throughout my profolio display itself and also the work it displays within the page. I hope in the end to be able to better this design significantly. 
@@ -20,13 +20,14 @@ Deployed application listed below:
 
 
 ## Usage
-/*screenshot*/
+
 You may use this page to access information about myself, projects I've created and for creative development. 
 ```md
 ![alt text](assets/imgforreadme.png)
 ```
 
 ## Credits
+
 Collaborate mini project was done with Dylan kreisman, you can assess the page through his GitHub--> username:dylankreisman
 
 Landing Image retrieved from:
@@ -44,10 +45,12 @@ Image provided by Shutterstock
 Tools/websites used to complete assignment listed below with links:
 https://www.w3schools.com/ -->used for css styling: grid, column, effects, box-shadowing, hover, etc.
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Styling_Columns --> used for css styling (columns)
+https://www.youtube.com/watch?v=p0bGHP-PXD4&list=PLK8UzsCFua5X8LaI41WtGyQS_gJXEnyoR&index=1&t=4781s --> used for responsive layout support
 
 
 
 ## License 
+
 MIT License
 
 Copyright (c) 2022 Ale
